@@ -1,0 +1,69 @@
+<style>
+/* CSS dasar untuk styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.vectorstock.com/i/1000v/24/06/internet-of-things-background-iot-technology-vector-42312406.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #FFFFFF;
+}
+.navbar {
+    background-color: #0443f1;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+}
+.content {
+    padding: 20px;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product {
+    border: 1px solid #ffffff;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.button {
+    padding: 10px 15px;
+    background-color: #0443f1;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #FFFFFF;
+}
+.contact-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.contact-box {
+    border: 1px solid #ffffff;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+} 
+</style>
